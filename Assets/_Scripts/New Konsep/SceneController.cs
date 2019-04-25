@@ -45,6 +45,7 @@ public class SceneController : MonoBehaviour {
             Debug.Log("Game Over");
             SceneManager.LoadScene("Score_Menu");
             RefreshListSceneName();
+            MyScore = 0;
         }
     }
 

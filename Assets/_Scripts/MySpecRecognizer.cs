@@ -33,7 +33,7 @@ public class MySpecRecognizer : MonoBehaviour {
     private void Start()
     {
         Debug.Log(PlayerPrefs.GetInt("Animal"));
-        ScoreText.text = "Score : "+ scoreHolder.PlayerScore.ToString();
+        ScoreText.text = "Score : "+ SceneController.MyScore.ToString();
         LevelComplite = false;
         if (key != null)
         {
@@ -93,11 +93,11 @@ public class MySpecRecognizer : MonoBehaviour {
         }
         else
         // to Restart The game
-        if (word == "again")
-        {
-            StartCoroutine(RestartGame());
-        }
-        else
+        //if (word == "again")
+        //{
+        //    StartCoroutine(RestartGame());
+        //}
+        //else
         // for check the answer is true
         if (word == LevelString.AnswerThisLevel)
         {
@@ -140,6 +140,7 @@ public class MySpecRecognizer : MonoBehaviour {
        
         if ( health <= 0)
         {
+            LevelComplite = true;
             GameOver();
         }
     }
@@ -149,7 +150,7 @@ public class MySpecRecognizer : MonoBehaviour {
         Debug.Log("game Over");
         AllGameObj.SetActive(false);
         PopUpAnim.SetTrigger("lose");
-        finalScoreLose.text =scoreHolder.PlayerScore.ToString();
+        finalScoreLose.text = SceneController.MyScore.ToString();
     }
     private void AnswerTrue()
     {
@@ -165,8 +166,8 @@ public class MySpecRecognizer : MonoBehaviour {
             SceneController.MyScore += 10;
             PlayerPrefs.SetInt(SceneController.TheInstanceOfSceneController.JenisScene[SceneController.TheInstanceOfSceneController.WhatSceneToLoad].SceneNameType, SceneController.MyScore);
 
-            ScoreText.text = "Score : " +scoreHolder.PlayerScore.ToString();
-            finalScoreWin.text = scoreHolder.PlayerScore.ToString();
+            ScoreText.text = "Score : " + SceneController.MyScore.ToString();
+            finalScoreWin.text = SceneController.MyScore.ToString();
             PopUpAnim.SetTrigger("win");
             AllGameObj.SetActive(false);
         }

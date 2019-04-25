@@ -16,37 +16,34 @@ EditorBuildSettings:
     guid: e6b7372637241e14ab85a610d029ca23
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_1.unity
-    guid: 353edae119741894087a922720c770b3
+    guid: 77e259ce8906ddc44bb65dfb84f377ee
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_2.unity
-    guid: 680e12e405b3e964d90e3de769f334dc
+    guid: c569778cb7b59b649bfdaa51f1c7d6a2
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_3.unity
-    guid: 3e11955f74bd9b247857f7cd571b12c1
+    guid: efaeef48b23e9bd4bbb1cee70821a531
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_4.unity
-    guid: 9c9da98d421f7994798741154d61fc7f
-  - enabled: 1
-    path: Assets/_Scenes/Animal/Animal_5.unity
-    guid: f6e093f345cf22443834818a8bd7c349
+    guid: 0e4e057d09dd04041a57367667eb3ff8
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_0.unity
-    guid: 97cc36d21f44bee4692ae5791d9c381c
+    guid: 73db4e935ee3af14b85c221b113fc9ac
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_1.unity
-    guid: 4fd26ae97d5b8574495fe2aaf96774f8
+    guid: b64d2c24a8ac00c49ad16869588138eb
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_2.unity
-    guid: cd62582fd93a3d945b74c0021acc99a5
+    guid: 991efc02fe74f1949a7fe7b265c339f6
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_3.unity
-    guid: 8b67ed949e7d76a44a779645576cb82f
+    guid: 5fbb4c13fafa5434fb4719f6341cc356
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_4.unity
-    guid: 337af1ad3d069494f8bef48aad334708
+    guid: 7d038259dab1f7e409af553fef201c3a
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_5.unity
-    guid: 2f31285c5020aad48a1702307dc265ab
+    guid: 7c551eff55778c245ac3cd8ff4a2e1e5
   - enabled: 1
     path: Assets/_Scenes/Object/Object_0.unity
     guid: 6733bc7046272c440993f1de286835ad
