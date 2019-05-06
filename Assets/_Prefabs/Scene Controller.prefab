@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhatSceneToLoad: 0
-  JumlahSemuaPertanyaan: 5
+  JumlahSemuaPertanyaan: 10
   SisaPertanyaan: 5
   PertanyaanYgDitampilkan: 5
   JenisScene:
@@ -63,6 +63,11 @@ MonoBehaviour:
     - Alphabet_2
     - Alphabet_3
     - Alphabet_4
+    - Alphabet_5
+    - Alphabet_6
+    - Alphabet_7
+    - Alphabet_8
+    - Alphabet_9
   - SceneNameType: Animal
     Name:
     - Animal_0
@@ -70,6 +75,11 @@ MonoBehaviour:
     - Animal_2
     - Animal_3
     - Animal_4
+    - Animal_5
+    - Animal_6
+    - Animal_7
+    - Animal_8
+    - Animal_9
   - SceneNameType: Fruit
     Name:
     - Fruit_0
@@ -77,6 +87,11 @@ MonoBehaviour:
     - Fruit_2
     - Fruit_3
     - Fruit_4
+    - Fruit_5
+    - Fruit_6
+    - Fruit_7
+    - Fruit_8
+    - Fruit_9
   - SceneNameType: Number
     Name:
     - Number_0
@@ -84,6 +99,11 @@ MonoBehaviour:
     - Number_2
     - Number_3
     - Number_4
+    - Number_5
+    - Number_6
+    - Number_7
+    - Number_8
+    - Number_9
   - SceneNameType: Object
     Name:
     - Object_0
@@ -91,3 +111,8 @@ MonoBehaviour:
     - Object_2
     - Object_3
     - Object_4
+    - Object_5
+    - Object_6
+    - Object_7
+    - Object_8
+    - Object_9

@@ -9,9 +9,9 @@ public class SceneController : MonoBehaviour {
 
     public int WhatSceneToLoad;
 
-    public int JumlahSemuaPertanyaan = 3;
+    public int JumlahSemuaPertanyaan ;
     public int SisaPertanyaan ;
-    public int PertanyaanYgDitampilkan = 2;
+    public int PertanyaanYgDitampilkan ;
 
     public SceneType[] JenisScene;
 
