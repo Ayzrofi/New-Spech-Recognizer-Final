@@ -118,7 +118,7 @@ public class MySpecRecognizer : MonoBehaviour {
             }
         }
         // display your voice in game 
-        Result.text = "You Say :<b> " + word + "</b> ";
+        Result.text = "Your answer is :<b> " + word + "</b> ";
     }// end of functions OnPhraseRecognized
 
     private void AnswerFalse()

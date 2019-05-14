@@ -73,7 +73,7 @@ public class SelectGameSpeechRecognizer : MonoBehaviour {
             Application.Quit();
         }
         // display your voice in game 
-        Result.text = "You Say :<b> " + word + "</b> ";
+        Result.text = "You Choose The " + word + " Category ";
     }// end of functions OnPhraseRecognized
     IEnumerator playGame()
     {

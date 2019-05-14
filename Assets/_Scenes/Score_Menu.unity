@@ -2584,7 +2584,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 4
     m_MaxSize: 83
     m_Alignment: 3
@@ -2593,7 +2593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What You Say
+  m_Text: Please say Your Command
 --- !u!222 &1661926562
 CanvasRenderer:
   m_ObjectHideFlags: 0

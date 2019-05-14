@@ -502,7 +502,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 41.3, y: 23.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &146471082
 MonoBehaviour:
@@ -635,7 +635,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 181656422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -289.99994, z: 0}
+  m_LocalPosition: {x: 0, y: -301.59995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1661926563}
@@ -1510,7 +1510,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 91
     m_Alignment: 4
@@ -1519,7 +1519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What Is That
+  m_Text: What is that thing ?
 --- !u!222 &632567136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2246,8 +2246,8 @@ MonoBehaviour:
   - next
   - again
   - ransel
-  - dog
-  - jaguar
+  - food
+  - house
   confidence: 2
   Result: {fileID: 1661926561}
   health: 1
@@ -2730,7 +2730,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1334673797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -243.99997, y: 329.7, z: 0}
+  m_LocalPosition: {x: -316.31998, y: 329.7, z: 0}
   m_LocalScale: {x: 1.0000798, y: 1.0000798, z: 1.0000798}
   m_Children: []
   m_Father: {fileID: 70645308}
@@ -2738,8 +2738,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -244, y: 329.7}
-  m_SizeDelta: {x: 777.2, y: 46.1}
+  m_AnchoredPosition: {x: -316.32, y: 329.7}
+  m_SizeDelta: {x: 632.58, y: 46.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1334673799
 MonoBehaviour:
@@ -2764,7 +2764,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 83
     m_Alignment: 3
@@ -2773,7 +2773,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Answer The Question Bellow With Your Voice In English Language
+  m_Text: 'Answer The Question Bellow With Your Voice In English '
 --- !u!222 &1334673800
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3617,7 +3617,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 83
     m_Alignment: 3
@@ -3626,7 +3626,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What You Say
+  m_Text: Please say your answer
 --- !u!222 &1661926562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3640,7 +3640,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661926560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -495.10004, y: -0.0000019073486, z: 0}
+  m_LocalPosition: {x: -307.83002, y: -0.0000019073486, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 181656423}
@@ -3648,8 +3648,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -495.1, y: -0.0000019073}
-  m_SizeDelta: {x: 241.1, y: 49.4}
+  m_AnchoredPosition: {x: -307.83, y: -0.0000019073}
+  m_SizeDelta: {x: 615.65, y: 49.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1728148306
 GameObject:
@@ -3680,8 +3680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answer: ransel
   Wrong:
-  - dog
-  - jaguar
+  - food
+  - house
 --- !u!4 &1728148308
 Transform:
   m_ObjectHideFlags: 0

@@ -502,7 +502,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 36.4, y: 27.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &146471082
 MonoBehaviour:
@@ -635,7 +635,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 181656422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -289.99994, z: 0}
+  m_LocalPosition: {x: 0, y: -303.64993, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1661926563}
@@ -730,9 +730,9 @@ MonoBehaviour:
   - menu
   - next
   - again
-  - frog
-  - cat
-  - goat
+  - fish
+  - bear
+  - lemon
   confidence: 2
   Result: {fileID: 1661926561}
   health: 1
@@ -1591,7 +1591,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mention the word starting with that letter
+  m_Text: Say the word that starts with the letter
 --- !u!222 &632567136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2168,7 +2168,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
@@ -2177,7 +2177,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Wrong
+  m_Text: Wrong
 --- !u!222 &1004941062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2762,7 +2762,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
-    m_FontSize: 20
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2773,7 +2773,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Answer The Question Bellow With Your Voice In English Language
+  m_Text: 'Answer The Question Bellow With Your Voice In English '
 --- !u!222 &1334673800
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3617,7 +3617,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 83
     m_Alignment: 3
@@ -3626,7 +3626,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What You Say
+  m_Text: Please say your answer
 --- !u!222 &1661926562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3640,7 +3640,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661926560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -495.10004, y: -0.0000019073486, z: 0}
+  m_LocalPosition: {x: -404.89996, y: -0.0000019073486, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 181656423}
@@ -3648,8 +3648,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -495.1, y: -0.0000019073}
-  m_SizeDelta: {x: 241.1, y: 49.4}
+  m_AnchoredPosition: {x: -404.9, y: -0.0000019073}
+  m_SizeDelta: {x: 421.4, y: 49.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1728148306
 GameObject:
@@ -3678,10 +3678,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20492d62fc02de44da356a55f75bfab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answer: frog
+  answer: fish
   Wrong:
-  - cat
-  - goat
+  - bear
+  - lemon
 --- !u!4 &1728148308
 Transform:
   m_ObjectHideFlags: 0
@@ -4230,7 +4230,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 234.4, y: 196}
+  m_SizeDelta: {x: 268.4, y: 184.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058543924
 MonoBehaviour:

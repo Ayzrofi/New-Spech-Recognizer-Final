@@ -16,166 +16,151 @@ EditorBuildSettings:
     guid: f0dcd5881e30a6a41a671f6098b0f4f3
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_1.unity
-    guid: 453f20a242509db41a036e18d5477b82
+    guid: 05934a3765c4c3e409efd9d5748bfd60
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_2.unity
-    guid: 7203b4178020f744fa2bc21ea2587b81
+    guid: 7d60025c855345d419fe14f6a7e30b23
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_3.unity
-    guid: e445c46d3b1736b43b86b34cf4c7bea6
+    guid: 81ad7dc9f82bf7b469e1586a3983b342
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_4.unity
-    guid: c45dd34c068bb5f42b950df552eec50f
+    guid: 8f50a295988a73e49b1d1d5745d51546
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_5.unity
-    guid: 2e3dfd50d4640a14282c0faaa3f6c773
+    guid: 6a75a73dee1d6da47a0c739a67e18780
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_6.unity
-    guid: 7d51ced6e4dc5454c881f3ba62ec1a81
+    guid: ffabd017ec95e5549bdaaf8e8743f29f
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_7.unity
-    guid: dae9c8c1a27855744872eae465ab2c70
+    guid: a47913e5a7ae240428384192e0ce1fe7
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_8.unity
-    guid: 46e7299a0f9b0fc408f75850f0cf6baa
+    guid: a403d78aa890e224b8fe058a6bb18ccb
   - enabled: 1
     path: Assets/_Scenes/Alphabet/Alphabet_9.unity
-    guid: 271623e1a127c4b4c853ce911696d30b
-  - enabled: 1
-    path: Assets/_Scenes/Alphabet/Alphabet_10.unity
-    guid: 617e9dd98063462438e5ebba80dbe0a3
+    guid: d6ad85567dff30f49baf18017709f0b6
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_0.unity
     guid: e6b7372637241e14ab85a610d029ca23
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_1.unity
-    guid: 0ec470889afb7be4ca49e7f510d0b6c2
+    guid: eaefc0d9257004545ab1b8eaf30a4ff7
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_2.unity
-    guid: c78842357b75e7844b27da5dd3ff4adf
+    guid: c364ed0cace99274d8eae7584155db1f
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_3.unity
-    guid: f2e7bfd7ff88fa742a1843160bc874aa
+    guid: 269c2d9b4d35e2349974d8fc1cd69d69
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_4.unity
-    guid: 2c4111514c2f4a141968402c5586f4b7
+    guid: d348ed132f835a244a9874b1e2b14423
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_5.unity
-    guid: bbb26028badb1a64b9c8a9ad22bb617c
+    guid: 9a0e4037e5f0a2e429336455a56e6216
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_6.unity
-    guid: a46eadaced697a746a93debef39b9b76
+    guid: 5eea27772d83ced4cae0ffc90a22c27e
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_7.unity
-    guid: 7b46c1adaa7c84f4d9967d8df70cb509
+    guid: 6e8bd1e5efc1f4248afca78cb227926a
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_8.unity
-    guid: 6259f62c4c14b2343a0a01b08a2fd132
+    guid: 926a8c0b693259f499eb20d49509c2a2
   - enabled: 1
     path: Assets/_Scenes/Animal/Animal_9.unity
-    guid: 060022b205a7fe54396dd5cc546c612c
-  - enabled: 1
-    path: Assets/_Scenes/Animal/Animal_10.unity
-    guid: 31648445f93b69f4e89fedb24ffc34f0
+    guid: 7a6b9710723360149b7dd1df11e3774f
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_0.unity
     guid: 8bd50cde04b8ba04386705f9c53c7643
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_1.unity
-    guid: 91fb67655da14af4a891143ca371aff5
+    guid: d4430a9d3af612042a7e24a0df8bb4df
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_2.unity
-    guid: c62cff1497340a34f8a7cd71216a0133
+    guid: 1d70e8158077dd343830d43a321a7835
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_3.unity
-    guid: 63467b71c08458d4c9df56147d2a42ac
+    guid: 316fb0f6245d6884692595664064e9e9
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_4.unity
-    guid: 99596442570e891479f0168556688769
+    guid: e5a7e69fc1d2b2745ab05d27555591cc
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_5.unity
-    guid: defaac5156c38b44b9a129a2c20b5804
+    guid: 430b7b7d7ecc2dd47af80a03b5aee428
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_6.unity
-    guid: 5a7c97341d715484aa8a47c87b25d991
+    guid: 6992be6a86fa2d34d8f97588d212e0cf
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_7.unity
-    guid: d4bcff708c69cfb4a97a08e143d7fa11
+    guid: 51d6b8c8e597deb42aaf4122e25b5773
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_8.unity
-    guid: f80c27f1d39fb8b4d8689e406a8ea066
+    guid: 0e36c4d2f14bc64418f0d05514aae331
   - enabled: 1
     path: Assets/_Scenes/Fruit/Fruit_9.unity
-    guid: 3a61845aa16bf9a489fa7ac33333763b
-  - enabled: 1
-    path: Assets/_Scenes/Fruit/Fruit_10.unity
-    guid: 918e48f89ec40af48bf5886624e77de8
+    guid: f045fee47b1ecfc42b0c14cab58f65e2
   - enabled: 1
     path: Assets/_Scenes/Number/Number_0.unity
     guid: 8b8b9a31e8241b547b2299fda2431332
   - enabled: 1
     path: Assets/_Scenes/Number/Number_1.unity
-    guid: 6259275e9c842ab49bd0e858c11f5d81
+    guid: bcbfd4c4763079e4c91c93c918b8c76c
   - enabled: 1
     path: Assets/_Scenes/Number/Number_2.unity
-    guid: 99d37a0422d26e64f806bad85ccbe642
+    guid: 444f07797942ac1498a3882b5664ded7
   - enabled: 1
     path: Assets/_Scenes/Number/Number_3.unity
-    guid: c0998542895f9a149b2b3f1c431566fe
+    guid: 2e172911bdf0d9c44bc768cd562ec88c
   - enabled: 1
     path: Assets/_Scenes/Number/Number_4.unity
-    guid: 980ea7af56bca2342be2d35b95e8d5c2
+    guid: de95ff256a00a1a4e8a9401a8d49cfe4
   - enabled: 1
     path: Assets/_Scenes/Number/Number_5.unity
-    guid: 67b5d3474bee5f044bd95628a0435a88
+    guid: c4c3f2fd65151214b982b6c9b4bf1958
   - enabled: 1
     path: Assets/_Scenes/Number/Number_6.unity
-    guid: 67964642f3079e24daef4a01fb31fe75
+    guid: 85a84d033bbb87a429f1577640957a6d
   - enabled: 1
     path: Assets/_Scenes/Number/Number_7.unity
-    guid: 27ee2aabdaeab6d45b97a9350e229ee0
+    guid: 34802a66b2dfaf84e81a9e85137c8d5b
   - enabled: 1
     path: Assets/_Scenes/Number/Number_8.unity
-    guid: c5fdd4dbd5a4cdd4484cb932170dffa2
+    guid: 49cee0e75d2d65c4395467260aa5683b
   - enabled: 1
     path: Assets/_Scenes/Number/Number_9.unity
-    guid: 8863ed35e90208340a3c86f7ea2d634a
-  - enabled: 1
-    path: Assets/_Scenes/Number/Number_10.unity
-    guid: 01b0a53d94b2df44ca2de722e7bd4fe7
+    guid: 85ad4ceea7e5e4f4f9f4e7d11138f686
   - enabled: 1
     path: Assets/_Scenes/Object/Object_0.unity
     guid: 2f38f13a35cf017459658e89749c6c9e
   - enabled: 1
     path: Assets/_Scenes/Object/Object_1.unity
-    guid: 9d94d2e6180e6f84ab224cbffe92772b
+    guid: 0b2b48496ad6cd94bbf6512ebf50d01d
   - enabled: 1
     path: Assets/_Scenes/Object/Object_2.unity
-    guid: aac51cea7d9839f44a5177e5dd515ad2
+    guid: 3372528cfe73811468f51465b79334c7
   - enabled: 1
     path: Assets/_Scenes/Object/Object_3.unity
-    guid: 04df04ea3ccaf00428c247e137ceada1
+    guid: 42dcdba678aaf9a46a557e26bd2c735d
   - enabled: 1
     path: Assets/_Scenes/Object/Object_4.unity
-    guid: dd613c48745b8884bb78e12c89a95a93
+    guid: a6eb5a0b1dffb814f8747de471949768
   - enabled: 1
     path: Assets/_Scenes/Object/Object_5.unity
-    guid: 1a6a01405083fa64a87c92a9f9b381f8
+    guid: f7ae3a815949b3442914410a53d4df94
   - enabled: 1
     path: Assets/_Scenes/Object/Object_6.unity
-    guid: fa5c8d0709a7f84418f1e3fa158aaf0f
+    guid: 95d63b6a3c7a7c94db74664eaf927a86
   - enabled: 1
     path: Assets/_Scenes/Object/Object_7.unity
-    guid: 9b07afb8748fb384ba40e9fe85d0aaff
+    guid: 92b6c5152a32e3d4bace84647f0a94a4
   - enabled: 1
     path: Assets/_Scenes/Object/Object_8.unity
-    guid: 689deb98882be3745a24780264f79d66
+    guid: 4b29e1b4afbd56d4bbbff398bf6628af
   - enabled: 1
     path: Assets/_Scenes/Object/Object_9.unity
-    guid: df7fa953fee72f845a38bf09353ab446
-  - enabled: 1
-    path: Assets/_Scenes/Object/Object_10.unity
-    guid: 1e1e3aa35e431744cbd22c6be07a1a1d
+    guid: e7f157c150f86b24ebf03a3131d44be9
   - enabled: 1
     path: Assets/_Scenes/Score_Menu.unity
     guid: e6e2f0a3731b9a64ea9f38832ea38dc6

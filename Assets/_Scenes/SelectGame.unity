@@ -433,7 +433,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358001252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 337, y: -288, z: 0}
+  m_LocalPosition: {x: 403.19995, y: -288, z: 0}
   m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
   m_Children: []
   m_Father: {fileID: 146471081}
@@ -441,8 +441,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 977, y: 72}
-  m_SizeDelta: {x: 577.9, y: 117.1}
+  m_AnchoredPosition: {x: 1043.2, y: 72}
+  m_SizeDelta: {x: 445.7, y: 117.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358001254
 MonoBehaviour:
@@ -467,7 +467,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 83
     m_Alignment: 3
@@ -913,7 +913,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 300}
-  m_SizeDelta: {x: 960.3, y: 96.8}
+  m_SizeDelta: {x: 1161, y: 96.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133232823
 MonoBehaviour:
@@ -938,7 +938,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 83
     m_Alignment: 4
@@ -947,7 +947,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Say Section You Want To Play
+  m_Text: Say the category of questions you want to play
 --- !u!222 &1133232824
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1351,9 +1351,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 45a2315a024f3264eadf96e097d3fb9b, type: 3}
-    m_FontSize: 55
+    m_FontSize: 37
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 83
     m_Alignment: 3
@@ -1362,7 +1362,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What You Say
+  m_Text: Please say what category you choose
 --- !u!222 &1661926562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1376,7 +1376,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661926560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -311.89996, y: -280, z: 0}
+  m_LocalPosition: {x: -246.10004, y: -280, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 146471081}
@@ -1384,8 +1384,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 328.1, y: 80}
-  m_SizeDelta: {x: 577.9, y: 117.1}
+  m_AnchoredPosition: {x: 393.9, y: 80}
+  m_SizeDelta: {x: 732.9, y: 117.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1702022747
 GameObject:
