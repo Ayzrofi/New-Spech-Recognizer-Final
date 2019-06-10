@@ -7,6 +7,17 @@ using UnityEngine.SceneManagement;
 using System;
 [RequireComponent (typeof(AudioSource))]
 public class MySpecRecognizer : MonoBehaviour {
+    [Header("Timer Component")]
+    public float timerCounter;
+    public Slider TimerSlider;
+    public Text TimerTextDisplay;
+
+    [Header("Options Menu")]
+    public GameObject OptionsMenuPanel;
+    public GameObject MenuConfirmPanel;
+    public GameObject ExitConfirmPanel;
+    public bool InMenu, WantToExit, WantToMenu;
+
     [Header("Transition Animation")]
     public Animator anim;
     public Animator PopUpAnim;
@@ -29,6 +40,18 @@ public class MySpecRecognizer : MonoBehaviour {
 
     protected PhraseRecognizer Recognizer;
     protected string word;
+
+    private void Awake()
+    {
+        OptionsMenuPanel.gameObject.SetActive(false);
+        MenuConfirmPanel.gameObject.SetActive(false);
+        ExitConfirmPanel.gameObject.SetActive(false);
+        InMenu = false;
+        WantToExit = false;
+        WantToMenu = false;
+
+        TimerSlider.maxValue = timerCounter;
+    }
 
     private void Start()
     {
@@ -55,6 +78,27 @@ public class MySpecRecognizer : MonoBehaviour {
         }
     }
 
+    private void Update()
+    {
+        if (!InMenu && !LevelComplite)
+        {
+            if (timerCounter > 0)
+            {
+                timerCounter -= Time.deltaTime;
+                TimerSlider.value = timerCounter;
+                TimerTextDisplay.text = timerCounter.ToString("00");
+            }
+
+            if (timerCounter <= 0)
+            {
+                LevelComplite = true;
+                InMenu = true;
+                GameOver();
+                Debug.Log("Lose");
+            }
+                
+        }
+    }
     //private void OnEnable()
     //{
     //    if (key != null)
@@ -68,22 +112,74 @@ public class MySpecRecognizer : MonoBehaviour {
     void OnPhraseRecognized(PhraseRecognizedEventArgs Sound)
     {
         word = Sound.text;
-        // to Play The Game 
-        if (word == "play")
+        // open options menu
+        if (word == "options" && !InMenu && !LevelComplite)
         {
+            InMenu = true;
+            OptionsMenuPanel.gameObject.SetActive(true);
             //StartCoroutine(playGame());
         }
         else
-        // for loading menu screen
-        if (word == "menu")
+        // resume the game
+        if (word == "resume" && InMenu && !LevelComplite)
         {
-            StartCoroutine(ToMenu());
+            InMenu = false;
+            OptionsMenuPanel.gameObject.SetActive(false);
+            //StartCoroutine(playGame());
+        }
+        else
+        //  back to main menu 
+        if (word == "menu" && InMenu && !WantToExit)
+        {
+            WantToMenu = true;
+            MenuConfirmPanel.gameObject.SetActive(true);
+           
         }
         else
         // for exiting application
-        if (word == "exit")
+        if (word == "exit" && InMenu && !WantToMenu)
         {
-            StartCoroutine(QuitGame());
+            WantToExit = true;
+            ExitConfirmPanel.gameObject.SetActive(true);
+            
+        }
+        else
+        // yes confirm to exit / to menu
+        if (word == "yes" && InMenu)
+        {
+            if (WantToMenu && !WantToExit)
+            {
+                Debug.Log("to Menu");
+                StartCoroutine(ToMenu());
+            }
+      
+            if (WantToExit && !WantToMenu)
+            {
+                Debug.Log("exit Game");
+                StartCoroutine(QuitGame());
+            }
+            //WantToMenu = true;
+            //MenuConfirmPanel.gameObject.SetActive(true);
+            //StartCoroutine(ToMenu());
+        }
+        else
+        // no confirm to exit / to menu
+        if (word == "no" && InMenu)
+        {
+            if (WantToMenu && !WantToExit)
+            {
+                WantToMenu = false;
+                WantToExit = false;
+                MenuConfirmPanel.gameObject.SetActive(false);
+            }
+
+            if(WantToExit && !WantToMenu)
+            {
+                WantToExit = false;
+                WantToMenu = false;
+                ExitConfirmPanel.gameObject.SetActive(false);
+            }
+            
         }
         else
         // to Load The Next Level
@@ -99,11 +195,12 @@ public class MySpecRecognizer : MonoBehaviour {
         //}
         //else
         // for check the answer is true
-        if (word == LevelString.AnswerThisLevel)
+        if (word == LevelString.AnswerThisLevel && !InMenu)
         {
             if (LevelString.AnswerThisLevel != null && !LevelComplite)
             {
                 LevelComplite = true;
+                InMenu = true;
                 AnswerTrue();
             }
                 
@@ -111,7 +208,7 @@ public class MySpecRecognizer : MonoBehaviour {
         // for check if the answer is false
         for (int i = 0; i < LevelString.wrongAnswer.Length; i++)
         {
-            if (word == LevelString.wrongAnswer[i])
+            if (word == LevelString.wrongAnswer[i] && !InMenu)
             {
                 if (LevelString.wrongAnswer[i] != null)
                     AnswerFalse();
@@ -141,6 +238,7 @@ public class MySpecRecognizer : MonoBehaviour {
         if ( health <= 0)
         {
             LevelComplite = true;
+            InMenu = true;
             GameOver();
         }
     }

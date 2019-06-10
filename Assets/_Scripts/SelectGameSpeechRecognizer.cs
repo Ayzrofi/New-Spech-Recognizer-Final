@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 using System;
 
 public class SelectGameSpeechRecognizer : MonoBehaviour {
+    public GameObject ExitConfirmPanel;
+    public bool WantToExit;
 
     [Header("Command List")]
     public string[] key;
@@ -67,10 +69,31 @@ public class SelectGameSpeechRecognizer : MonoBehaviour {
         }
         else
         // for exiting application
-        if (word == "exit")
+        //if (word == "exit")
+        //{
+        //    Debug.Log("Quit Game");
+        //    Application.Quit();
+        //}
+        //else
+        // for exiting application
+        if (word == "exit" && !WantToExit)
         {
-            Debug.Log("Quit Game");
+            WantToExit = true;
+            ExitConfirmPanel.gameObject.SetActive(true);
+
+        }
+        else
+        // yes confirm to exit / to menu
+        if (word == "yes" && WantToExit)
+        {
             Application.Quit();
+            Debug.Log("Exit Game");
+        }
+        else
+        if (word == "no" && WantToExit)
+        {
+            WantToExit = false;
+            ExitConfirmPanel.SetActive(false);
         }
         // display your voice in game 
         Result.text = "You Choose The " + word + " Category ";

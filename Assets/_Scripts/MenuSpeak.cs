@@ -8,6 +8,8 @@ using System;
 [RequireComponent (typeof(AudioSource))]
 public class MenuSpeak : MonoBehaviour
 {
+    public GameObject ExitConfirmPanel;
+    public bool WantToExit;
     [Header("Command List")]
     public string[] key;
     [Header("Level Speak Confidence")]
@@ -42,10 +44,24 @@ public class MenuSpeak : MonoBehaviour
         }
         else
         // for exiting application
-        if (word == "exit")
+        if (word == "exit" && !WantToExit)
         {
-            Debug.Log("Quit Game");
+            WantToExit = true;
+            ExitConfirmPanel.gameObject.SetActive(true);
+
+        }
+        else
+        // yes confirm to exit / to menu
+        if (word == "yes" && WantToExit)
+        {
             Application.Quit();
+            Debug.Log("Exit Game");
+        }
+        else 
+        if(word == "no" && WantToExit)
+        {
+            WantToExit = false;
+            ExitConfirmPanel.SetActive(false);
         }
         // display your voice in game 
         Result.text = "Your Command Is :<b> " + word + "</b> ";
