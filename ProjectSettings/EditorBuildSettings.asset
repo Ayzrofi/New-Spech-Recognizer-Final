@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/_Scenes/MenuAwal.unity
     guid: 2e02b6147dd40f04fa11dd5955b313da
   - enabled: 1
+    path: Assets/_Scenes/_Learning/LearningAlphabets.unity
+    guid: 961c2a5affaa2b944ac6f05022067a2b
+  - enabled: 1
+    path: Assets/_Scenes/_Learning/LearningAnimal.unity
+    guid: b01ba6aed8d4a004a8ca5bbd4be0acc4
+  - enabled: 1
+    path: Assets/_Scenes/_Learning/LearningFruit.unity
+    guid: e4e9f9ba614e981459d49985dbca73eb
+  - enabled: 1
+    path: Assets/_Scenes/_Learning/LearningMenu.unity
+    guid: d89f86eb537545340870a7662ae4db9b
+  - enabled: 1
+    path: Assets/_Scenes/_Learning/LearningNumber.unity
+    guid: 7e798aed8f416f94d85653dc3ab70feb
+  - enabled: 1
+    path: Assets/_Scenes/_Learning/LearningObject.unity
+    guid: 8725354f9f5b9464f9274c39ce463fcd
+  - enabled: 1
     path: Assets/_Scenes/SelectGame.unity
     guid: 9b6a91acb44d2d147a29df6437d00709
   - enabled: 1

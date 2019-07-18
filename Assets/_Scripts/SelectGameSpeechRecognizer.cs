@@ -8,7 +8,9 @@ using System;
 
 public class SelectGameSpeechRecognizer : MonoBehaviour {
     public GameObject ExitConfirmPanel;
+    public GameObject ToMenuConfirmPanel;
     public bool WantToExit;
+    public bool WantToMenu;
 
     [Header("Command List")]
     public string[] key;
@@ -75,8 +77,15 @@ public class SelectGameSpeechRecognizer : MonoBehaviour {
         //    Application.Quit();
         //}
         //else
+        if (word == "menu" && !WantToMenu && !WantToExit)
+        {
+            WantToMenu = true;
+            ToMenuConfirmPanel.gameObject.SetActive(true);
+
+        }
+        else
         // for exiting application
-        if (word == "exit" && !WantToExit)
+        if (word == "exit" && !WantToExit && !WantToMenu)
         {
             WantToExit = true;
             ExitConfirmPanel.gameObject.SetActive(true);
@@ -84,16 +93,37 @@ public class SelectGameSpeechRecognizer : MonoBehaviour {
         }
         else
         // yes confirm to exit / to menu
-        if (word == "yes" && WantToExit)
+        if (word == "yes")
         {
-            Application.Quit();
-            Debug.Log("Exit Game");
+            if (WantToExit && !WantToMenu)
+            {
+                Application.Quit();
+                Debug.Log("Exit Game");
+            }
+
+            if(WantToMenu && !WantToExit)
+            {
+                SceneManager.LoadScene("MenuAwal");
+                Debug.Log("back To Main Menu");
+            }
+            
         }
         else
-        if (word == "no" && WantToExit)
+        if (word == "no" )
         {
-            WantToExit = false;
-            ExitConfirmPanel.SetActive(false);
+            if (WantToExit && !WantToMenu)
+            {
+                WantToExit = false;
+                WantToMenu = false;
+                ExitConfirmPanel.gameObject.SetActive(false);
+            }
+
+            if (WantToMenu && !WantToExit)
+            {
+                WantToExit = false;
+                WantToMenu = false;
+                ToMenuConfirmPanel.gameObject.SetActive(false);
+            }
         }
         // display your voice in game 
         Result.text = "You Choose The " + word + " Category ";
